@@ -1,0 +1,103 @@
+p{
+  font-size: 40px;
+}
+.Container__CounterApp {
+  width: 600px;
+  text-align: center;
+  border: 2px solid black;
+  display: flexbox;
+  justify-content: center;
+  align-content: center;
+  margin-left: 700px;
+  position: relative;
+}
+/* componentB */
+.Component-B__title {
+  font-weight: 400;
+}
+.Component-B__button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 14px;
+  text-align: center;
+  outline: none;
+  color: solid black;
+  background-color: #ddd;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 100px;
+}
+
+.Component-B__button:hover {
+  background-color:  lightgreen;
+  cursor: pointer;
+}
+
+.Component-B__button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+}
+
+/* Component A */
+.Component-A__title {
+  font-weight: 400;
+}
+.Component-A__button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 14px;
+  text-align: center;
+  outline: none;
+  color: solid black;
+  background-color: #ddd;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 100px;
+}
+
+.Component-A__button:hover {
+  cursor: pointer;
+}
+.Component-A__button:hover {
+  background-color: lightcoral;
+  cursor: pointer;
+}
+
+.Component-A__button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+}
+
+/*Button Reset*/
+.Reset-Button {
+  display: inline-block;
+  align-items: end;
+  padding: 15px 25px;
+  font-size: 14px;
+  text-align: end;
+  outline: none;
+  color: black;
+  background-color: #ddd;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+  position: relative;  
+  margin-left: 500px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.Reset-Button:hover {
+  cursor: pointer;
+}
+.Reset-Button:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+.Reset-Button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+}
